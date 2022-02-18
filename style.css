@@ -64,7 +64,7 @@ a {
 }
 
 .grabber .intro .top {
-    font-size: 48px;
+    font-size: 36px;
     color: #f9faf8;
 }
 
@@ -108,13 +108,13 @@ a {
     flex-shrink: 1;
     max-width:100vw;
     flex-direction: row;
-    gap: 32px;
+    gap: 8vw;
 }
 
 
 .info .sub {
     color: #45474b;
-    width: 18vh;
+    width: 16vh;
     justify-content: center;
     text-align: center;
     display: flex;
@@ -132,8 +132,8 @@ a {
 }
 
 .square {
-    height: 18vh;
-    width: 18vh;
+    height: 16vw;
+    width: 16vw;
     flex-shrink: 1;
     border: 4px solid #3882f6;
     border-radius: 12px;
@@ -177,12 +177,12 @@ a {
     margin-bottom: 64px;
     margin-left: 32px;
     margin-right: 32px;
-    padding: 32px;
-    padding-left: 64px;
-    padding-right: 64px;
+    padding: 2vw;
+    padding-left: 3vw;
+    padding-right: 3vw;
     display: flex;
     flex-direction: row;
-    gap: 64px;
+    gap: 3vw;
     align-items: center;
 }
 
