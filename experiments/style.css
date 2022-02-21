@@ -1,0 +1,74 @@
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: aliceblue;
+    margin: 0px;
+}
+
+.header {
+    font-size: larger;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: brown;
+    justify-content: space-between;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    list-style: none;
+}
+
+.content {
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: auto;
+    font-size: large;
+}
+
+.leftbar,
+.rightbar {
+    background-color: beige;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-shrink: 0;
+}
+
+.leftbar .nav,
+.rightbar .nav {
+    flex-direction: column;
+    padding: 32px;
+    padding-top: 16px;
+    height: auto;
+}
+
+.rightbar .nav {
+    text-align: right;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer {
+    background-color: brown;
+    font-size: larger;
+    text-align: center;
+    padding: 4px;
+}
+
+.main {
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
+    padding: 32px;
+    padding-top: 8px;
+}
